@@ -1,0 +1,111 @@
+
+
+import './globals.css';
+
+export default function Page() {
+  return (
+    <div className="container">
+      {/* Navbar */}
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#team">Our Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      {/* Home Section */}
+      <section id="home" className="section">
+        <h1 className="title">Al Amna Welfare</h1>
+        <p className="description">
+          Helping those in need, with love and compassion. We believe in reaching out to the quietly suffering and uplifting lives in our community.
+        </p>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="section">
+        <h2>About Us</h2>
+        <p>Al Amna Welfare is a non-profit organization committed to transforming the lives of underprivileged individuals and families through compassionate and comprehensive support. Founded by Zulfiqar Ali Chohan, our mission is rooted in the belief that every person deserves dignity and the opportunity to thrive. We provide essential services such as food assistance, educational support, healthcare access, and vocational training to empower those in need. Through our efforts, we aim to break the cycle of poverty and uplift communities by fostering self-sufficiency and resilience.
+       </p>
+<p>
+Our organization operates on the principles of empathy, collaboration, and community engagement. We recognize the importance of working together with local partners, volunteers, and supporters to maximize our impact. Each initiative we undertake is designed to address the specific needs of the communities we serve. By listening to the voices of those we assist and understanding their challenges, we can create tailored programs that foster sustainable change and enhance the quality of life for the individuals and families we support.
+</p>
+<p>At Al Amna Welfare, we believe in the power of collective action and the difference it can make in the world. We invite you to join us in our mission to help the less fortunate and create a compassionate society where no one is left behind. Whether through donations, volunteering, or spreading awareness, your support can help us continue our vital work and expand our reach. Together, we can make a lasting impact on the lives of those in need and inspire hope for a brighter future.
+</p>
+      </section>
+
+      {/* Team Section */}
+
+      
+      <section id="team" className="section">
+        <h2>Our Team</h2>
+        <div className="team-member">
+          <h3> Haji Zulfiqar Ali Chohan</h3>
+          <p>Founder of Al Amna Welfare</p>
+          <p>Zulfiqar Ali Chohan, the founder of Al Amna Welfare, is a visionary dedicated to making a profound difference in the lives of the underprivileged. His commitment to social welfare is fueled by a deep compassion for those in need, and he has worked tirelessly to create a platform that empowers individuals and families facing hardship. Through Al Amna Welfare, he aims to provide essential support, resources, and opportunities for a brighter future. His leadership inspires others to join in the mission of helping the less fortunate, fostering a spirit of community and generosity. Under his guidance, Al Amna Welfare continues to grow, positively impacting countless lives and embodying the true essence of humanitarian service.
+
+</p>  </div>
+      </section>
+
+      <section id="team" className="section">
+        <div className="team-member">
+          <h3> haji M. Shamsher jung Chohan</h3>
+          <p>Chief patron of Al Amna Welfare</p>
+          <p>As the Honourable Chief Patron, Haji M. Shamszher Jung Chohan provides invaluable guidance and wisdom that shapes the vision of Al-Amna Welfare. His unwavering support and belief in the organization's mission serve as an anchor, inspiring the team to push forward in their service to the community. With a lifetime of experience and dedication, he stands as a pillar of strength, embodying hope and compassion.
+          </p>  </div>
+      </section>
+
+      <section id="team" className="section">
+        <div className="team-member">
+          <h3>Maham Waheed Chohan</h3>
+          <p>President of Al Amna Welfare</p>
+          <p>Honourable President Maham Waheed Ahmed Chohan leads with purpose, setting the strategic direction for the organization’s initiatives. She oversees the welfare projects, ensuring that they are impactful and aligned with the organization’s core values. Through her commitment and leadership, Maham works tirelessly to uplift those in need, fostering a sense of unity and purpose within the team and the community. Her dedication is deeply appreciated and admired.
+          </p>    </div>
+      </section>
+      
+      <section id="team" className="section">
+        <div className="team-member">
+          <h3>Dr Ashfa Shakeel Chohan</h3>
+          <p>General Secretary of Al Amna Welfare</p>
+          <p>In her role as Honourable Secretary, Ashfa Shakeel Ahmed Chohan is the backbone of Al-Amna Welfare’s operations. She manages communication, organizes meetings, and coordinates activities to keep the team cohesive and focused. Ashfa’s diligence and attention to detail are crucial in maintaining the organization’s effectiveness and efficiency. Her steadfast commitment to her role and her compassion for others are deeply valued by all.
+          </p>  </div>
+      </section>
+
+      <section id="team" className="section">
+        <div className="team-member">
+          <h3>Dr Sawera Saeed Chohan</h3>
+          <p>Vice-President of Al Amna Welfare</p>
+          <p>As the Honourable Vice President, Sawera Saeed Ahmed Chohan supports the president and ensures that the welfare’s projects are carried out smoothly. Her proactive approach and dedication to the mission help bridge gaps, ensuring every project reaches those who need it most. Sawera’s passion for positive change and her leadership skills bring energy and strength to the team, making her an integral part of Al-Amna Welfare.
+          </p>  </div>
+      </section>
+
+      <section id="team" className="section">
+        <div className="team-member">
+          <h3>Dr Adeen imran Chohan</h3>
+          <p>Media Coordinator of Al Amna Welfare</p>
+          <p>As the Honourable Media Coordinator, Adeen Imran Chohan brings Al-Amna Welfare’s message to the public, spreading awareness and fostering community engagement. She manages the organization’s social media presence, campaigns, and publicity to reach a wider audience. Adeen’s creativity and dedication ensure that the organization’s voice is heard, and her work plays a vital role in connecting people to Al-Amna’s mission of compassion and support.
+          </p>  </div>
+      </section>
+
+
+      <section id="team" className="section">
+        <div className="team-member">
+          <h3>Ushna tajammul hussain Chohan</h3>
+          <p>Treasurerof Al Amna Welfare</p>
+          <p>In her role as the Honourable Treasurer, Ushna Tajammul Hussain Chohan diligently manages the organization’s finances, ensuring every donation and resource is used effectively. She oversees budgeting, financial planning, and reporting, enabling Al-Amna Welfare to sustain and grow its outreach. Ushna’s careful stewardship and dedication to transparency allow the organization to make a lasting impact, and her commitment is genuinely valued by everyone.
+            </p>  </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="section">
+        <h2>Contact Us</h2>
+        <p>If you know someone who needs help, or if you'd like to support our cause, please reach out to us.</p>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+  );
+}
